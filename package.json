@@ -1,0 +1,14 @@
+{
+  "name": "maykbrito.dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/maykbrito/maykbrito.dev.git",
+  "author": "Mayk Brito <maykbrito@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tailwindcss -i ./tailwind.css -o ./styles.css --jit --content \"./**/*.html\""
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.7"
+  }
+}
