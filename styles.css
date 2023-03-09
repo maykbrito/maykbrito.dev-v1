@@ -537,6 +537,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(18 18 20 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#C1FF4D\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(193 255 77 / var(--tw-bg-opacity));
+}
+
 .bg-purple-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(126 34 206 / var(--tw-bg-opacity));
@@ -585,8 +590,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .opacity-\[0\.5\] {
   opacity: 0.5;
+}
+
+.hover\:bg-green-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(134 239 172 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-\[\#42d3ff\]:hover {
