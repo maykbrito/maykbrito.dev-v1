@@ -631,9 +631,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(72 99 247 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-black:hover {
+.hover\:bg-\[\#3ECEFC\]:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  background-color: rgb(62 206 252 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-red-500:hover {
